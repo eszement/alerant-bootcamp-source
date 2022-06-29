@@ -24,7 +24,7 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'Docker Registry'
-    repository: 'bootcamp/demoapp_studentN6'
+    repository: 'bootcamp/demoapp_student6'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
 
