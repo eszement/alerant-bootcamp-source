@@ -19,6 +19,7 @@ steps:
     mavenAuthenticateFeed: false
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
+    mavenOptions: -D maven.local.repository
 
 - task: CmdLine@2
   inputs:
